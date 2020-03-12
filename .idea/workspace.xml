@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0462cc89-300b-4c59-8357-98b6a728fbfc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/StringCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StringCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/StringCalculatorMust.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StringCalculatorMust.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,8 +26,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/StringCalculatorMust.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="58" column="40" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
+            <state relative-caret-position="677">
+              <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -130,7 +128,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583920290474" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583921877880" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -149,7 +147,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StringCalculatorMust">
+  <component name="RunManager" selected="JUnit.StringCalculatorMust.returnIntForNewLineSeparators">
     <configuration name="StringCalculatorMust" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="stringcalculator" />
       <option name="PACKAGE_NAME" value="" />
@@ -179,6 +177,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringCalculatorMust.returnIntForNewLineSeparators" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="stringcalculator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StringCalculatorMust" />
+      <option name="METHOD_NAME" value="returnIntForNewLineSeparators" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StringCalculatorMust.returnSumForTwoNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="stringcalculator" />
       <option name="PACKAGE_NAME" value="" />
@@ -189,23 +197,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringCalculatorMust.returnZeroForEmptyString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="stringcalculator" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StringCalculatorMust" />
-      <option name="METHOD_NAME" value="returnZeroForEmptyString" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StringCalculatorMust.returnIntForNewLineSeparators" />
         <item itemvalue="JUnit.StringCalculatorMust" />
         <item itemvalue="JUnit.StringCalculatorMust.returnIntForArbitraryNumberSize" />
         <item itemvalue="JUnit.StringCalculatorMust.returnSumForTwoNumbers" />
         <item itemvalue="JUnit.StringCalculatorMust.returnFourForFourInt" />
-        <item itemvalue="JUnit.StringCalculatorMust.returnZeroForEmptyString" />
       </list>
     </recent_temporary>
   </component>
@@ -223,12 +221,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StringCalculatorMust_returnZeroForEmptyString - 2020.03.11 at 08h 52m 44s.xml">
-      <configuration name="StringCalculatorMust.returnZeroForEmptyString" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringCalculatorMust_returnFourForFourInt - 2020.03.11 at 08h 56m 28s.xml">
-      <configuration name="StringCalculatorMust.returnFourForFourInt" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="StringCalculatorMust_returnFourForFourInt - 2020.03.11 at 09h 02m 06s.xml">
       <configuration name="StringCalculatorMust.returnFourForFourInt" configurationId="JUnit" />
     </history-entry>
@@ -250,17 +242,25 @@
     <history-entry file="StringCalculatorMust - 2020.03.11 at 09h 43m 10s.xml">
       <configuration name="StringCalculatorMust" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StringCalculatorMust_returnIntForArbitraryNumberSize - 2020.03.11 at 09h 51m 32s.xml">
+      <configuration name="StringCalculatorMust.returnIntForArbitraryNumberSize" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringCalculatorMust - 2020.03.11 at 09h 51m 50s.xml">
+      <configuration name="StringCalculatorMust" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringCalculatorMust_returnIntForNewLineSeparators - 2020.03.11 at 10h 04m 32s.xml">
+      <configuration name="StringCalculatorMust.returnIntForNewLineSeparators" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="981" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" weight="0.3295838" />
@@ -268,7 +268,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.3295838" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3295838" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3295838" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -300,8 +300,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/StringCalculatorMust.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="58" column="40" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
+        <state relative-caret-position="677">
+          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

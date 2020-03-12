@@ -71,4 +71,23 @@ public class StringCalculatorMust {
 
     }
 
-}
+    @Test
+    public void returnIntForNewLineSeparators() {
+
+        //Arrange
+
+        StringCalculator stringCalculator = new StringCalculator();
+
+        //Act
+
+        int result = stringCalculator.add("1\n2,3");
+
+        //Assert
+
+        Assert.assertEquals(6, result);
+
+    }
+
+    }
+
+
