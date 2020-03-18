@@ -88,6 +88,19 @@ public class StringCalculatorMust {
 
     }
 
+    @Test
+
+    public void returnIntForCustomSeperators() {
+        //Arrange
+        StringCalculator stringCalculator = new StringCalculator();
+
+        //Act
+        int result = stringCalculator.add("//;\n1;2");
+
+        //Assert
+        Assert.assertEquals(3, result);
     }
+
+}
 
 
